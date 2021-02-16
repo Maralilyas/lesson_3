@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:id="@+id/real"
+    android:layout_width="94dp"
+    android:layout_height="150dp">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/avtostopom_po_galaktike" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/best"/>
+</RelativeLayout>
+    <TextView
+        android:id="@+id/galaktika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/real"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:layout_marginLeft="6dp"
+        android:textStyle="bold"
+        android:text="Автостопом по галактике"/>
+    <TextView
+        android:id="@+id/galaktika2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/real"
+        android:layout_below="@id/galaktika"
+        android:textColor="@color/purple_700"
+        android:textSize="15sp"
+        android:layout_marginLeft="6dp"
+        android:textStyle="bold"
+        android:text="Дуглас Адамс"/>
+
+    <RatingBar
+        android:id="@+id/star1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/galaktika2"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:numStars="5"
+        android:rating="4.5"
+        android:stepSize="0.5"
+        android:layout_toRightOf="@+id/real" />
+
+    <Button
+        android:id="@+id/oku1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/star1"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="-11dp"
+        android:layout_toRightOf="@+id/real"
+        android:text="Оқу" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="90dp"
+        android:layout_height="135dp"
+        android:layout_below="@+id/real"
+        app:srcCompat="@drawable/ekinwi_bolma" />
+
+    <TextView
+        android:id="@+id/ekinwi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/oku1"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imageView2"
+        android:text="Екінші болма"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/ekinwi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageView2"
+        android:layout_below="@id/ekinwi1"
+        android:textColor="@color/purple_700"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="6dp"
+        android:text="Қуаныш Шонбай"/>
+    <RatingBar
+        android:id="@+id/star2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ekinwi2"
+        android:layout_marginLeft="6dp"
+        android:numStars="5"
+        android:rating="4"
+        android:stepSize="0.5"
+        android:layout_toRightOf="@+id/real" />
+    <Button
+        android:id="@+id/oku2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/star2"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="-11dp"
+        android:layout_toRightOf="@id/imageView2"
+        android:text="Оқу" />
+
+    <ImageView
+        android:id="@+id/image_ono"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/imageView2"
+        android:src="@drawable/ono"/>
+
+    <TextView
+        android:id="@+id/ono1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/oku2"
+        android:layout_toRightOf="@id/image_ono"
+        android:text="Оно"
+        android:layout_marginLeft="6dp"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/ono2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/real"
+        android:layout_below="@id/ono1"
+        android:textColor="@color/purple_700"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="4dp"
+        android:text="Стивен Кинг"/>
+    <RatingBar
+        android:id="@+id/star3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ono2"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:numStars="5"
+        android:rating="4"
+        android:stepSize="0.5"
+        android:layout_toRightOf="@+id/real" />
+    <Button
+        android:id="@+id/oku3"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/star3"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="-11dp"
+        android:layout_toRightOf="@id/image_ono"
+        android:text="Оқу" />
+    <ImageView
+        android:id="@+id/image_mag"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/image_ono"
+        android:src="@drawable/magicheskaya_uborka"/>
+    <TextView
+        android:id="@+id/mag1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/oku3"
+        android:layout_toRightOf="@id/image_mag"
+        android:text="Магическая уборка"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/mag3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image_mag"
+        android:layout_below="@id/mag1"
+        android:textColor="@color/purple_700"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="6dp"
+        android:text="Мари Кондо"/>
+    <RatingBar
+        android:id="@+id/star4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mag3"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:numStars="5"
+        android:rating="4"
+        android:stepSize="0.5"
+        android:layout_toRightOf="@id/image_mag" />
+    <Button
+        android:id="@+id/oku4"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/star4"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="-11dp"
+        android:layout_toRightOf="@id/image_mag"
+        android:text="Оқу" />
+    <ImageView
+        android:id="@+id/image_uw"
+        android:layout_width="90dp"
+        android:layout_height="140dp"
+        android:layout_below="@id/image_mag"
+        android:src="@drawable/uwkan_uiya"/>
+    <TextView
+        android:id="@+id/uw1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/oku4"
+        android:layout_toRightOf="@id/image_uw"
+        android:text="Ұшқан ұя"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/uw2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image_uw"
+        android:layout_below="@id/uw1"
+        android:textColor="@color/purple_700"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="6dp"
+        android:text="Бауыржан Момышұлы"/>
+    <RatingBar
+        android:id="@+id/star5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uw2"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:numStars="5"
+        android:rating="4.5"
+        android:stepSize="0.5"
+        android:layout_toRightOf="@id/image_uw" />
+    <Button
+        android:id="@+id/oku5"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/star5"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="-11dp"
+        android:layout_toRightOf="@id/image_uw"
+        android:text="Оқу" />
+</RelativeLayout>
